@@ -79,6 +79,7 @@ type Metadata struct {
 	Media                 []Media      `json:"Media"`
 	Title                 string       `json:"title"`
 	TitleSort             string       `json:"titleSort"`
+	OriginalTitle         string       `json:"originalTitle"`
 	Type                  string       `json:"type"`
 	UpdatedAt             int          `json:"updatedAt"`
 	ViewCount             json.Number  `json:"viewCount"`
